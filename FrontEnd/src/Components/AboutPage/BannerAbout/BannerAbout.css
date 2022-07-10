@@ -1,0 +1,75 @@
+#BanerAbout {
+    background-color:rgb(255, 255, 255);
+}
+
+.aboutBanner {
+    margin-left:100px;
+    width:350px;
+
+}
+#h2-About{
+    margin-top:100px!important;
+}
+#banner-P1 {
+    margin-top:20px;
+
+
+}
+#banner-P{
+    color:rgb(32, 32, 32);
+}
+
+#banner-P {
+    margin-top:100px;
+
+    font-weight:bold;
+}
+
+#h2-About {
+
+
+    font-size:40px !important;
+    margin-top:50px;
+}
+
+@media only screen and (max-width:600px) {
+
+
+    .aboutBanner {
+        margin-top:0px;
+        margin-left:80px;
+        width:250px;
+
+    }
+
+
+    #h2-About {
+        margin-top:80px;
+
+    }
+
+    #banner-P {
+        margin-top:30px;
+        text-align:center;
+        font-weight:bold;
+
+    }
+
+    #banner-P1 {
+        margin-top:20px;
+        text-align:left;
+
+    }
+
+}
+
+@media (min-width:768px) and (max-width:991.98px) {
+
+    .aboutBanner {
+        margin-left:0px;
+        width:350px;
+        max-height:100%;
+        max-width:100%;
+    }
+
+}
